@@ -25,3 +25,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignorar vídeos pesados
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+#  permitir solo el optimizado:
+!video/Banner_home.mp4
