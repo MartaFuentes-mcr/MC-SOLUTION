@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockchainPro - Consultoría Blockchain para Empresas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar--> 
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <div class="brand-icon">
+                        <div class="brand-square"></div>
+                    </div>
+                    <h1 class="brand-text">MC SOLUTIONS</h1>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#servicios" class="nav-link">Servicios</a>
+                    <a href="#casos" class="nav-link">Casos de Éxito</a>
+                    <a href="#proceso" class="nav-link">Proceso</a>
+                    <a href="#recursos" class="nav-link">Recursos</a>
+                    <button class="btn btn-primary">Contactar</button>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">Líderes en Implementación Blockchain</div>
+                    <h1 class="hero-title">
+                        Transformamos tu empresa con <span class="text-accent">tecnología blockchain</span>
+                    </h1>
+                    <p class="hero-description">
+                        Ayudamos a empresas a implementar soluciones blockchain seguras, escalables y eficientes. 
+                        Desde contratos inteligentes hasta tokenización de activos.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large">
+                            Consulta Gratuita
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                        <button class="btn btn-outline btn-large">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polygon points="5,3 19,12 5,21 5,3"/>
+                            </svg>
+                            Ver Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-visual">
+                        <img src="/imagenes/DeFi_adopt.png" alt="Blockchain Network Visualization">
+                        <div class="floating-card floating-card-1">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/>
+                            </svg>
+                            <span>+300% ROI</span>
+                        </div>
+                        <div class="floating-card floating-card-2">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            <span>100% Seguro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- Trust Indicators Section--> 
+    <section class="trust-section">
+        <div class="container">
+            <p class="trust-text">Empresas que confían en nosotros</p>
+            <div class="trust-logos">
+                <div class="trust-logo">TechCorp</div>
+                <div class="trust-logo">FinanceX</div>
+                <div class="trust-logo">LogiChain</div>
+                <div class="trust-logo">DataFlow</div>
+            </div>
+        </div>
+    </section>
+
+     <!--Services Section-->
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios Blockchain</h2>
+                <p class="section-description">Soluciones completas para integrar blockchain en tu negocio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/imagenes/smart_contract.png" alt="Smart Contracts">
+                    </div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Contratos Inteligentes</h3>
+                    <p class="service-description">Automatización de procesos empresariales con contratos seguros y transparentes</p>
+                    <ul class="service-features">
+                        <li>✓ Desarrollo personalizado</li>
+                        <li>✓ Auditorías de seguridad</li>
+                        <li>✓ Implementación completa</li>
+                    </ul>
+                    <button class="btn btn-outline">Más información</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="/imagenes/Tokenizaciondeactivos.png" alt="Asset Tokenization">
+                    </div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Tokenización de Activos</h3>
+                    <p class="service-description">Convierte activos físicos y digitales en tokens blockchain</p>
+                    <ul class="service-features">
+                        <li>✓ Bienes raíces</li>
+                        <li>✓ Arte y coleccionables</li>
+                        <li>✓ Activos empresariales</li>
+                    </ul>
+                    <button class="btn btn-outline">Más información</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./imagenes/DeFi_adopt.png" alt="DeFi Solutions">
+                    </div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">DeFi y Finanzas</h3>
+                    <p class="service-description">Soluciones financieras descentralizadas para tu empresa</p>
+                    <ul class="service-features">
+                        <li>✓ Protocolos de préstamos</li>
+                        <li>✓ Exchanges descentralizados</li>
+                        <li>✓ Yield farming</li>
+                    </ul>
+                    <button class="btn btn-outline">Más información</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!--Video Section--> 
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ve Blockchain en Acción</h2>
+                <p class="section-description">Descubre cómo transformamos empresas con tecnología blockchain</p>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper" onclick="playVideo()">
+                    <video src="./video/Implementacin_de_Blockchain_en_90_Das_con_MC_SOLUT.mp4" alt="Blockchain Demo Video" controls alt="Blockchain Demo Video"></video>
+                    <div class="video-overlay"></div>
+                    <div class="play-button">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polygon points="5,3 19,12 5,21 5,3"/>
+                        </svg>
+                    </div>
+                    <div class="video-info">
+                        <h3>Implementación Blockchain en 90 días</h3>
+                        <p>Mira cómo ayudamos a TechCorp a revolucionar su cadena de suministro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!--Case Studies Section--> 
+    <section id="casos" class="cases-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Casos de Éxito</h2>
+                <p class="section-description">Resultados reales de nuestras implementaciones blockchain</p>
+            </div>
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="./imagenes/Cadena_de_suministros.png" alt="Supply Chain Case Study">
+                    </div>
+                    <div class="case-content">
+                        <div class="case-header">
+                            <h3>Cadena de Suministro Global</h3>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/>
+                            </svg>
+                        </div>
+                        <p>Implementación de trazabilidad blockchain para empresa logística</p>
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Reducción de fraudes</span>
+                                <span class="metric-value">95%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Tiempo de verificación</span>
+                                <span class="metric-value">-80%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Satisfacción del cliente</span>
+                                <span class="metric-value">98%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="./imagenes/Plataforma_DeFi_Empresarial.png" alt="DeFi Platform Case Study">
+                    </div>
+                    <div class="case-content">
+                        <div class="case-header">
+                            <h3>Plataforma DeFi Empresarial</h3>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26 12,2"/>
+                            </svg>
+                        </div>
+                        <p>Sistema de préstamos descentralizado para PYME</p>
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Volumen procesado</span>
+                                <span class="metric-value">$50M+</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Usuarios activos</span>
+                                <span class="metric-value">10,000+</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Tiempo de aprobación</span>
+                                <span class="metric-value">2 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!--Stats Section--> 
+    <section class="stats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Impacto en Números</h2>
+                <p class="section-description">Resultados que hablan por sí solos</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                        <span class="stat-number">150+</span>
+                    </div>
+                    <p class="stat-label">Proyectos Completados</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                        <span class="stat-number">50+</span>
+                    </div>
+                    <p class="stat-label">Empresas Transformadas</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <line x1="12" y1="20" x2="12" y2="10"/>
+                            <line x1="18" y1="20" x2="18" y2="4"/>
+                            <line x1="6" y1="20" x2="6" y2="16"/>
+                        </svg>
+                        <span class="stat-number">$500M+</span>
+                    </div>
+                    <p class="stat-label">Valor Procesado</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                            <circle cx="12" cy="16" r="1"/>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                        <span class="stat-number">99.9%</span>
+                    </div>
+                    <p class="stat-label">Uptime Garantizado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!--Calculator Section-->
+    <section class="calculator-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Calculadora de ROI Blockchain</h2>
+                <p class="section-description">Descubre el potencial de retorno de inversión de implementar blockchain en tu empresa</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator-card">
+                    <div class="calculator-header">
+                        <svg class="calculator-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="4" y="2" width="16" height="20" rx="2" ry="2"/>
+                            <line x1="8" y1="6" x2="16" y2="6"/>
+                            <line x1="8" y1="10" x2="16" y2="10"/>
+                            <line x1="8" y1="14" x2="13" y2="14"/>
+                        </svg>
+                        <h3>Calcula tu ROI Potencial</h3>
+                        <p>Ingresa los datos de tu empresa para obtener una estimación personalizada</p>
+                    </div>
+                    <div class="calculator-content">
+                        <div class="calculator-form">
+                            <div class="form-group">
+                                <label>Ingresos anuales (€)</label>
+                                <input type="number" id="revenue" placeholder="ej: 5000000">
+                            </div>
+                            <div class="form-group">
+                                <label>Empleados</label>
+                                <input type="number" id="employees" placeholder="ej: 100">
+                            </div>
+                            <div class="form-group">
+                                <label>Sector</label>
+                                <select id="sector">
+                                    <option>Finanzas</option>
+                                    <option>Logística</option>
+                                    <option>Salud</option>
+                                    <option>Retail</option>
+                                    <option>Manufactura</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary btn-large" onclick="calculateROI()">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <rect x="4" y="2" width="16" height="20" rx="2" ry="2"/>
+                                    <line x1="8" y1="6" x2="16" y2="6"/>
+                                    <line x1="8" y1="10" x2="16" y2="10"/>
+                                    <line x1="8" y1="14" x2="13" y2="14"/>
+                                </svg>
+                                Calcular ROI
+                            </button>
+                        </div>
+                        <div class="calculator-results">
+                            <h4>Estimación de Beneficios</h4>
+                            <div class="result-item">
+                                <span>Reducción de costos</span>
+                                <span class="result-value" id="costReduction">€450,000</span>
+                            </div>
+                            <div class="result-item">
+                                <span>Aumento de eficiencia</span>
+                                <span class="result-value" id="efficiency">€320,000</span>
+                            </div>
+                            <div class="result-item">
+                                <span>Nuevos ingresos</span>
+                                <span class="result-value" id="newRevenue">€280,000</span>
+                            </div>
+                            <div class="result-total">
+                                <span>ROI Estimado (3 años)</span>
+                                <span class="roi-value" id="totalROI">340%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Process Section-->
+    <section id="proceso" class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Proceso de Implementación</h2>
+                <p class="section-description">Metodología probada para garantizar el éxito de tu proyecto blockchain</p>
+            </div>
+            <div class="process-timeline">
+                <div class="timeline-line"></div>
+                <div class="process-step">
+                    <div class="step-content step-left">
+                        <div class="step-card">
+                            <div class="step-header">
+                                <h3>Análisis y Consultoría</h3>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M9,11 L12,14 L22,4"/>
+                                </svg>
+                            </div>
+                            <p>Evaluamos tu negocio y identificamos oportunidades blockchain</p>
+                            <ul>
+                                <li>• Auditoría de procesos actuales</li>
+                                <li>• Identificación de casos de uso</li>
+                                <li>• Análisis de viabilidad técnica</li>
+                            </ul>
+                            <div class="step-duration">2-4 semanas</div>
+                        </div>
+                    </div>
+                    <div class="step-number">1</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content step-right">
+                        <div class="step-card">
+                            <div class="step-header">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                                </svg>
+                                <h3>Diseño de Solución</h3>
+                            </div>
+                            <p>Creamos la arquitectura técnica personalizada para tu proyecto</p>
+                            <ul>
+                                <li>• Arquitectura blockchain</li>
+                                <li>• Diseño de contratos inteligentes</li>
+                                <li>• Especificaciones técnicas</li>
+                            </ul>
+                            <div class="step-duration">3-6 semanas</div>
+                        </div>
+                    </div>
+                    <div class="step-number">2</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content step-left">
+                        <div class="step-card">
+                            <div class="step-header">
+                                <h3>Desarrollo e Implementación</h3>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                                </svg>
+                            </div>
+                            <p>Construimos y desplegamos tu solución blockchain</p>
+                            <ul>
+                                <li>• Desarrollo de contratos inteligentes</li>
+                                <li>• Integración con sistemas existentes</li>
+                                <li>• Pruebas exhaustivas de seguridad</li>
+                            </ul>
+                            <div class="step-duration">8-16 semanas</div>
+                        </div>
+                    </div>
+                    <div class="step-number">3</div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-content step-right">
+                        <div class="step-card">
+                            <div class="step-header">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="8" r="7"/>
+                                    <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"/>
+                                </svg>
+                                <h3>Lanzamiento y Soporte</h3>
+                            </div>
+                            <p>Ponemos en marcha tu solución con soporte continuo</p>
+                            <ul>
+                                <li>• Despliegue en producción</li>
+                                <li>• Capacitación del equipo</li>
+                                <li>• Monitoreo y mantenimiento</li>
+                            </ul>
+                            <div class="step-duration">Continuo</div>
+                        </div>
+                    </div>
+                    <div class="step-number">4</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!--Resources Section--> 
+    <section id="recursos" class="resources-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Recursos y Conocimiento</h2>
+                <p class="section-description">Mantente actualizado con las últimas tendencias en blockchain</p>
+            </div>
+            <div class="tabs-container">
+                <div class="tabs-nav">
+                    <button class="tab-button active" onclick="showTab('blog')">Blog</button>
+                    <button class="tab-button" onclick="showTab('whitepapers')">Whitepapers</button>
+                    <button class="tab-button" onclick="showTab('webinars')">Webinars</button>
+                </div>
+                
+                <div class="tab-content active" id="blog">
+                    <div class="resources-grid">
+                        <div class="resource-card">
+                            <div class="resource-image"></div>
+                            <h3>El Futuro de DeFi en 2025</h3>
+                            <p>Análisis de las tendencias emergentes en finanzas descentralizadas</p>
+                            <div class="resource-meta">
+                                <span>15 min de lectura</span>
+                                <span>Hace 2 días</span>
+                            </div>
+                        </div>
+                        <div class="resource-card">
+                            <div class="resource-image"></div>
+                            <h3>Contratos Inteligentes: Guía Completa</h3>
+                            <p>Todo lo que necesitas saber sobre smart contracts para empresas</p>
+                            <div class="resource-meta">
+                                <span>20 min de lectura</span>
+                                <span>Hace 1 semana</span>
+                            </div>
+                        </div>
+                        <div class="resource-card">
+                            <div class="resource-image"></div>
+                            <h3>Tokenización de Activos Reales</h3>
+                            <p>Cómo convertir activos físicos en tokens digitales</p>
+                            <div class="resource-meta">
+                                <span>12 min de lectura</span>
+                                <span>Hace 2 semanas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="whitepapers">
+                    <div class="resources-grid">
+                        <div class="whitepaper-card">
+                            <div class="whitepaper-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                    <polyline points="14,2 14,8 20,8"/>
+                                    <line x1="16" y1="13" x2="8" y2="13"/>
+                                    <line x1="16" y1="17" x2="8" y2="17"/>
+                                    <polyline points="10,9 9,9 8,9"/>
+                                </svg>
+                            </div>
+                            <div class="whitepaper-content">
+                                <div class="whitepaper-content">
+    <h3>Blockchain para Empresas: Guía 2025</h3>
+    <p>Estrategias de implementación y casos de uso</p>
+    <a href="docs/Blockchain_para_Empresas_MC_SOLUTIONS.pdf" 
+       download="Blockchain_para_Empresas_MC_SOLUTIONS.pdf"
+       class="btn btn-outline">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7,10 12,15 17,10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Descargar PDF
+    </a>
+</div>
+</div>
+<div class="whitepaper-card">
+    <div class="whitepaper-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14,2 14,8 20,8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10,9 9,9 8,9"/>
+        </svg>
+    </div>
+    <div class="whitepaper-content">
+        <h3>Seguridad en Smart Contracts</h3>
+        <p>Mejores prácticas y auditorías</p>
+        <a href="docs/Seguridad_en_Smart_Contracts_MC_SOLUTIONS.pdf" 
+           download="Seguridad_en_Smart_Contracts_MC_SOLUTIONS.pdf"
+           class="btn btn-outline">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7,10 12,15 17,10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Descargar PDF
+        </a>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="webinars">
+                    <div class="resources-grid">
+                        <div class="webinar-card">
+                            <div class="webinar-thumbnail">
+                                <svg class="play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5,3 19,12 5,21 5,3"/>
+                                </svg>
+                            </div>
+                            <h3>Introducción a Blockchain para CEOs</h3>
+                            <p>Webinar en vivo - Próximo jueves 14:00</p>
+                            <div class="webinar-duration">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12,6 12,12 16,14"/>
+                                </svg>
+                                60 minutos
+                            </div>
+                            <button class="btn btn-primary">Registrarse Gratis</button>
+                        </div>
+                        <div class="webinar-card">
+                            <div class="webinar-thumbnail">
+                                <svg class="play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <polygon points="5,3 19,12 5,21 5,3"/>
+                                </svg>
+                            </div>
+                            <h3>DeFi para Empresas Tradicionales</h3>
+                            <p>Grabación disponible</p>
+                            <div class="webinar-duration">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12,6 12,12 16,14"/>
+                                </svg>
+                                45 minutos
+                            </div>
+                            <button class="btn btn-outline">Ver Grabación</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!--Contact Section--> 
+    <section class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Tienes Preguntas?</h2>
+                <p class="section-description">Nuestro equipo de expertos está aquí para ayudarte</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3>Envíanos un Mensaje</h3>
+                        <p>Cuéntanos sobre tu proyecto y te responderemos en menos de 24 horas</p>
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Nombre</label>
+                                    <input type="text" placeholder="Tu nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="tu@email.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Empresa</label>
+                                <input type="text" placeholder="Nombre de tu empresa">
+                            </div>
+                            <div class="form-group">
+                                <label>Mensaje</label>
+                                <textarea placeholder="Cuéntanos sobre tu proyecto blockchain..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                                </svg>
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-chat">
+                        <div class="chat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                        </div>
+                        <div class="chat-content">
+                            <h4>Chat en Vivo</h4>
+                            <p>Habla con un experto ahora mismo</p>
+                        </div>
+                        <button class="btn btn-primary">Iniciar Chat</button>
+                    </div>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@blockchainpro.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+34 900 123 456</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Oficina</h4>
+                                <p>Madrid, España</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consultation-card">
+                        <h4>Consulta Gratuita</h4>
+                        <p>Agenda una llamada de 30 minutos para discutir tu proyecto</p>
+                        <button class="btn btn-outline">Agendar Llamada</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Footer Section-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-icon">
+                        <div class="brand-square"></div>
+                    </div>
+                    <h3>BlockchainPro</h3>
+                    <p>Líderes en consultoría e implementación de soluciones blockchain para empresas.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li>Contratos Inteligentes</li>
+                        <li>Tokenización</li>
+                        <li>DeFi</li>
+                        <li>NFTs</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li>Nosotros</li>
+                        <li>Casos de Éxito</li>
+                        <li>Blog</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>info@blockchainpro.com</li>
+                        <li>+34 900 123 456</li>
+                        <li>Madrid, España</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 BlockchainPro. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!--JavaScript-->
+    <script src="script.js"></script>
+</body>
+</html>
