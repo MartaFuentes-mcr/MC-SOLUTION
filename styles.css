@@ -1429,6 +1429,7 @@ body {
     grid-template-columns: 1fr;
   }
 }
+<<<<<<< HEAD
 
 /*chatbot*/
 :root{
@@ -1501,3 +1502,5 @@ body {
 .mc-send{
   padding:10px 14px; border:none; background:var(--mc-primary); color:#fff; border-radius:10px; cursor:pointer;
 }
+=======
+>>>>>>> ab6edb58c3b0c0c691dd34c90d3b0876fd699d36
