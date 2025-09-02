@@ -197,8 +197,5 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(statsSection)
   }
 })
-<<<<<<< HEAD
 
 
-=======
->>>>>>> ab6edb58c3b0c0c691dd34c90d3b0876fd699d36
