@@ -3,7 +3,8 @@
 Landing page corporativa para **MC SOLUTIONS**, una consultoría especializada en la **implementación de tecnología blockchain en empresas**.  
 El objetivo de este proyecto es mostrar los servicios, casos de éxito y recursos de la empresa, a la vez que ofrecer un punto de contacto directo con clientes potenciales a través de formularios y chat en vivo.
 
-<img width="1526" height="791" alt="mcsolutions" src="https://github.com/user-attachments/assets/1a7e7798-6973-4d84-b161-337b209512a7" />
+<img width="993" height="597" alt="Screenshot_1" src="https://github.com/user-attachments/assets/95cca322-ca17-41d7-a7d7-46b48e4c38e2" />
+
 
 
 ## 🏢 ¿Qué es MC SOLUTIONS?
